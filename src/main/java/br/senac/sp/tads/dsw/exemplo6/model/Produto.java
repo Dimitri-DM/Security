@@ -19,7 +19,7 @@ public class Produto {
     // Boa prática de mercado: Sempre use BigDecimal para valores monetários!
     private BigDecimal preco;
 
-    @ManyToOne 
+    @ManyToOne
     @JoinColumn(name = "categoria_id")
     private Categoria categoria;
 
